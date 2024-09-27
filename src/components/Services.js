@@ -32,26 +32,26 @@ const services = [
     {
       title: "Le recrutement",
       description:
-        "Nous sélectionnons pour vous des employés de maison qualifiés selon vos besoins spécifiques. Que vous recherchiez un majordome, une gouvernante ou un jardinier, nous veillons à ce que vous trouviez la personne idéale pour assurer le confort et le bon fonctionnement de votre foyer.",
+        "Nous sélectionnons rigoureusement pour vous des meileurs profiles grâce à des méthodes de recrutemeent innovantes, notre processus de recrutement est conçut pour identifier les professionnels expérimentés, fiables et qualifiés.",
       image: "assets/recrutement1.jpg",
     },
     {
       title: "La formation",
       description:
-        "Nous proposons des programmes de formation adaptés pour améliorer les compétences de vos employés de maison. Qu'il s'agisse de formation en gestion de domicile, en étiquette ou en sécurité, nous vous aidons à développer une équipe professionnelle et efficace.",
+        "Nous proposons des programmes de formation adaptés pour améliorer les compétences de vos employés de maison. Qu'il s'agisse de formation sur les fondammentaux du service à domicile, de l'entretient ménager à la gestion des enfants en passant par les compétances culinaires, nous vous aidons à développer une équipe professionnelle et efficace.",
       image: "assets/formation1.jpg",
     },
     {
       title: "La mise à disposition du personnel",
       description:
-        "Nous facilitons la mise à disposition de personnel de maison pour des contrats à court ou à long terme, selon vos besoins. Nos équipes expérimentées sont prêtes à offrir des services de qualité pour maintenir l'harmonie et le bon ordre dans votre résidence.",
+        "Il consiste à offrir aux clients le personnel recruté, formé et correspondant à leurs exigences et prêt à intégrer leurs emplois sous des contrats à court ou à long terme, selon vos besoins.",
       image: "assets/mise_dispo.jpg",
     },
     {
-        title: "Le suivi et la gestion aministrative",
+        title: "Le suivi et la gestion administrative",
         description:
-          "Nous prenons en charge le suivi et la gestion administrative de vos employés de maison, incluant la préparation des contrats, la gestion des salaires, et le respect des obligations légales. Simplifiez vos démarches administratives tout en assurant une gestion transparente et conforme.",
-        image: "assets/suivi_gestion.avif",
+          "Nous prenons en charge le suivi et la gestion administrative de vos employés de maison, incluant la préparation des contrats, la gestion des salaires, et le respect des obligations légales, simplifiant vos démarches administratives tout en assurant une gestion transparente et conforme.",
+        image: "assets/conseil.jpg",
       },
       {
         title: "Reférent santé et sécurité au travail",
@@ -62,7 +62,7 @@ const services = [
       {
         title: "Le conseil",
         description:
-          "Nous offrons un service de conseil personnalisé pour optimiser la gestion de votre personnel de maison. De l'organisation du planning à l'amélioration des relations professionnelles, nous vous accompagnons pour maximiser l'efficacité et la satisfaction au sein de votre foyer.",
+          "Nous offrons un service de conseil personnalisé pour optimiser la gestion de votre personnel mis à disposition. De l'organisation du planning à l'amélioration des relations professionnelles, nous vous accompagnons pour maximiser l'efficacité et la satisfaction au sein de votre horizon.",
         image: "assets/conseil1.jpg",
       }
   ];

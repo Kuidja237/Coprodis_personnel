@@ -9,7 +9,7 @@ const Testimonials = () => {
     <Box sx={{ bgcolor: 'background.paper', py: 8 }}>
       <Container maxWidth="lg">
         <Typography variant="h2" align="center" gutterBottom>
-          Ils nous ont fait confiance
+          Ils nous font confiance
         </Typography>
         <Carousel 
           autoPlay={true}
@@ -41,7 +41,7 @@ const Testimonials = () => {
                   "{testimonial.text}"
                 </Typography>
                 <Typography variant="subtitle1" color="text.primary">
-                  {testimonial.author}
+                  {testimonial.name}
                 </Typography>
                 <Rating value={testimonial.rating} readOnly />
               </CardContent>

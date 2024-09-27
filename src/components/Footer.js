@@ -10,6 +10,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import PolicyIcon from '@mui/icons-material/Policy';
 import DescriptionIcon from '@mui/icons-material/Description';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { WhatsApp } from '@mui/icons-material';
 
 const Footer = () => {
   return (
@@ -22,7 +23,13 @@ const Footer = () => {
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
               <PhoneIcon color="primary" sx={{ mr: 1 }} />
-              <Typography>+237 655 983 890</Typography>
+              
+              <Typography>+237 651938201</Typography>
+            </Box>
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+              <WhatsApp color="primary" sx={{ mr: 1 }} />
+                 <Typography> +237 655 983 890</Typography>
+              
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <EmailIcon color="primary" sx={{ mr: 1 }} />

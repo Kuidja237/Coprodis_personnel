@@ -68,7 +68,7 @@ const services = [
   {
     title: "Staff Protocolaire",
     description: "Cette offre est dédiée aux clients qui recherchent un personnel qualifié pour des événements officiels ou cérémonies, assurant un service de protocole exemplaire. Le staff protocolaire est formé pour respecter les normes et attentes des occasions formelles.",
-    price: "100.000 FCFA /événement",
+    price: "25. 000 FCFA /personne",
     hours: "Selon les exigences de l'événement"
   }
   
@@ -97,11 +97,53 @@ const AboutUs = () => {
         </Grid>
         <Grid item xs={12} md={6}>
         <Box sx={{ mb: 6 }}>
+          <Typography>
+          Bonjour,je suis Calvine Duamelle Fotso entrepreneure, Directrice Générale de COPRODIS INTERIM
+            SARL.
+          </Typography>
         <Typography variant="body1" paragraph>
-          COPRODIS INTERIM SARL est une agence de placement de personnel spécialisée dans la mise à disposition de personnel de maison qualifié. Nous nous engageons à fournir des services de haute qualité pour répondre aux besoins spécifiques de nos clients.
+
+          COPRODIS SARL est une agence active de placement du personnel de maison.
+          Nous recrutons, formons, mettons à diposition notre personnel pour répondre aux besoins spécifiques de nos clients.
+            
         </Typography>
         <Typography variant="body1" paragraph>
-          Notre mission est de faciliter la vie quotidienne de nos clients en leur offrant des solutions de personnel de maison adaptées à leurs besoins. Nous proposons différents packages pour répondre à une variété de situations et de préférences.
+          Notre mission est de mettre à disposition de nos clients le personnel qualifié fiable et formé.
+        </Typography>
+        <Typography variant="body1" paragraph>
+           Depuis 2019, j'apporte à travers cette entreprise le sourire aux familles en quête
+            d’un personnel sérieux. Passionnée de développement du potentiel humain et reconnue
+            pour mon professionnalisme et par l’atteinte des résultats, je me démarque aussi par ma
+            facilité d’approche et mon habileté à établir la confiance.
+        </Typography>
+        <Typography variant="body1" paragraph>
+          Titulaire d’un Master II en Gestion des Ressources Humaines obtenue à l’ENSET de Douala,
+          d’une Maîtrise en Droit des affaires obtenue à l’Université de Yaoundé II, j'ai eu
+          sept années d’expérience passées dans le secteur privé. Bien qu’épanouie dans mon secteur
+          d’activité, l’appel au service de la cause des familles s'est fait ressentir de plus en plus fort. Ainsi, j'ai
+          finit par choisir la voie de l’entrepreneuriat pour accompagner les entreprises ainsi que les
+          particuliers, à travers la mise à disposition des techniciens de surface et le personnel de
+          maison (ménagères ; nounous ; cuisiniers ; chauffeurs ; paysagistes ; gouvernantes, etc.)
+        </Typography>
+
+        <Typography variant="body1" paragraph>
+         Mes différentes certifications en
+          House cleaning fundamentals, Care of young children and special needs obtenues de Adison
+          Academic school me permettent de mieux former mon personnel et Susciter ainsi la
+          confiance, la crédibilité, et la satisfaction de mes clients. Je détient désormais la solution
+          au problème qui se pose dans plusieurs ménages et entreprises à savoir comment trouver le personnel ?
+        </Typography>
+        <Typography variant="body1" paragraph>
+        Je vous propose donc des solutions de gestion flexible du capital humain aussi bien pour les
+        sociétés, organismes que chez des particuliers. À cet effet, je dispose d’un agrément
+        octroyé par le Ministère de l’Emploi et de la Formation Professionnelle datant de juillet
+        2021.
+        </Typography>
+        <Typography fontWeight={"bold"}>
+        Des sociétés telles que 2F SARL, Fun Center, Leed Hospitality, Fourchettes et bouchons ainsi que F2SERVICES, et
+        Pategou consulting  m'ont fait confiance pour leur plus grande satisfaction. Aujourd’hui plus que jamais,je saisis toutes les
+        opportunités qui s’offrent à moi et fournir à mes partenaires d’affaires des résultats
+        satisfaisants en ayant à cœur le développement de leurs relations professionnelles.
         </Typography>
       </Box>
 

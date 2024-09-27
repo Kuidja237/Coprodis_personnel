@@ -12,7 +12,7 @@ const HomePage = () => {
     <>
       <Header />
       <Hero />
-      <RecommendedProfiles profiles={profiles} isLoading={false} />
+      <RecommendedProfiles profiles={profiles} isLoading={false} /> 
       <Testimonials />
       <Footer />
     </>

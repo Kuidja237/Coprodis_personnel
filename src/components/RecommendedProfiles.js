@@ -149,10 +149,10 @@ const RecommendedProfiles = ({ profiles, isLoading }) => {
 
   return (
     <Container maxWidth="lg" sx={{ my: 8 }}>
-      <Typography variant="h2" align="center" gutterBottom>
+      {/* <Typography variant="h2" align="center" gutterBottom>
         Profils recommandés
-      </Typography>
-      <Grid container spacing={4}>
+      </Typography> */}
+      {/* <Grid container spacing={4}>
         {paginatedProfiles.map((profile, index) => (
           <Grid item xs={12} sm={6} md={3} key={index}>
             <Card
@@ -194,7 +194,7 @@ const RecommendedProfiles = ({ profiles, isLoading }) => {
                     variant="contained"
                     size="small"
                     color="primary"
-                    href="https://wa.me/237655223600?text=Bonjour bienvenue chez Coprodis, que pouvons nous faire pour vous ?"
+                    href="https://wa.me/237655983890?text=Bonjour bienvenue chez Coprodis, que pouvons nous faire pour vous ?"
                   >
                     Réserver
                   </Button>
@@ -203,15 +203,15 @@ const RecommendedProfiles = ({ profiles, isLoading }) => {
             </Card>
           </Grid>
         ))}
-      </Grid>
-      <Box sx={{ display: "flex", justifyContent: "center", mt: 4 }}>
+      </Grid> */}
+      {/* <Box sx={{ display: "flex", justifyContent: "center", mt: 4 }}>
         <Pagination
           count={pageCount}
           page={page}
           onChange={handleChangePage}
           color="primary"
         />
-      </Box>
+      </Box> */}
 
       {openProfilView ? (
         <ProfileModal
@@ -229,7 +229,7 @@ const RecommendedProfiles = ({ profiles, isLoading }) => {
           Personnalisez votre besoin, écrivez nous
         </Typography>
         
-        <a aria-label="Chat on WhatsApp" href="https://wa.me/237655223600?text=Bonjour bienvenue chez Coprodis, que pouvons nous faire pour vous ?" >
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/237655983890?text=Bonjour bienvenue chez Coprodis, que pouvons nous faire pour vous ?" >
           <img alt="Chat on WhatsApp" src="assets/WhatsAppButtonGreenMedium.png"/>
         </a>
       </Box>

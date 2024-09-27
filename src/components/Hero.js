@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <Box sx={{ position: 'relative', height: '70vh', overflow: 'hidden' }}>
+    <Box sx={{ position: 'relative', height: '90vh', overflow: 'hidden' }}>
       <Carousel
         showArrows={true}
         showStatus={false}
@@ -25,8 +25,8 @@ const Hero = () => {
         onChange={handleSlideChange}
       >
         {heroImages.map((image, index) => (
-          <div key={index} style={{ height: '70vh' }}>
-            <img src={image.src} alt={image.alt} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          <div key={index} style={{ height: '90vh' }}>
+            <img src={image.src} alt={image.alt} style={{ width: '100%', height: 'auto', objectFit: 'cover'}} />
           </div>
         ))}
       </Carousel>
@@ -70,14 +70,14 @@ const Hero = () => {
               </MenuItem>
             ))}
           </TextField>
-          <Button
+          {/* <Button
             variant="contained"
             color="primary"
             startIcon={<SearchIcon />}
             size="large"
           >
             Rechercher
-          </Button>
+          </Button> */}
         </Box>
       </Box>
     </Box>

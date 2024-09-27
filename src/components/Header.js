@@ -53,7 +53,7 @@ const Header = () => {
   return (
     <AppBar position="fixed" elevation={0}>
       <Toolbar>
-        <img src={logoImage} alt="Copodis Personnel Logo" style={{ height: 40, marginRight: 16 }} />
+        <img src={logoImage} alt="Copodis Personnel Logo" style={{ height: 40, marginRight: 16}} />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: theme.palette.primary.main }}>
           Coprodis Personnel
         </Typography>
@@ -70,7 +70,7 @@ const Header = () => {
             <Button color="primary" href='/'>Accueil</Button>
             <Button color="primary" href='/services'>Services</Button>
             <Button color="primary" href='/about_us'>Qui sommes-nous</Button>
-            <Button color="primary" variant="outlined" href='/login'>Connexion</Button> 
+            {/* <Button color="primary" variant="outlined" href='/login'>Connexion</Button>  */}
           </>
         )}
       </Toolbar>

@@ -13,13 +13,13 @@ import personnel from '../assets/images/personnel.jpg';
 
 export const heroImages = [
   { 
-    src: personnel, 
+    src: 'assets/acceuil.jpg', 
     alt: 'Trouvez le personnel de maison idéal',
     title: 'Trouvez le personnel de maison idéal',
     description: 'Une plateforme simple et efficace pour vos besoins en personnel de maison.'
   },
   { 
-    src: femmeManageImage, 
+    src: 'assets/menagere1.jpg', 
     alt: 'Gardez votre maison impeccable sans effort',
     title: 'Un intérieur impeccable',
     description: 'Nos femmes de ménage expertes garantissent un foyer propre et sain.'
@@ -37,7 +37,7 @@ export const heroImages = [
     description: 'Nos jardiniers transforment votre extérieur en un véritable paradis vert.'
   },
   { 
-    src: cuisinierImage, 
+    src: 'assets/cuisiniere.jpg', 
     alt: 'Cuisinier préparant un repas',
     title: 'Des repas délicieux',
     description: 'Nos cuisiniers talentueux préparent des plats savoureux pour toute la famille.'
@@ -51,13 +51,13 @@ export const heroImages = [
   { 
     src: 'assets/gouvernante.jpg', 
     alt: 'Gouvernante arrangeant des fleurs dans un vase',
-    title: 'Une gestion parfaite de votre maison',
-    description: 'Nos gouvernantes veillent au bon fonctionnement de vos hôtels.'
+    title: 'Une gestion parfaite de votre hôtel',
+    description: 'Nos gouvernantes asssurent la bonne gestion de vos hôtels.'
   },
   {
-    src: 'assets/staff_protocole.jpg',
+    src: 'assets/protocole.jpg',
     alt: 'Staff protocolaire lors d’un événement officiel',
-    title: 'Un personnel de protocole irréprochable',
+    title: 'Un Staff protocolaire irréprochable',
     description: 'Nos experts en protocole assurent la gestion parfaite de vos événements officiels.'
   },
   {
@@ -72,12 +72,7 @@ export const heroImages = [
     title: 'Un entretien impeccable de vos espaces',
     description: 'Nos techniciens de surface garantissent la propreté et l’hygiène de vos locaux.'
   },
-  { 
-    src: 'assets/aide_domicile.jpg', 
-    alt: 'Aide à domicile aidant une personne âgée',
-    title: 'Un soutien au quotidien',
-    description: 'Nos aides à domicile apportent assistance et compagnie aux personnes âgées.'
-  },
+ 
 ];
 
 export const services = [
@@ -86,18 +81,17 @@ export const services = [
   'Cuisinier',
   'Jardinier',
   'Chauffeur',
-  'Gouvernante',
-  'Majordome',
-  'Aide à domicile',
+  'Blanchisseur',
   'Coiffeuse à domicile',
-  'Receptioniste'
+  'Receptioniste',
+  'Technicien de surface'
 ];
 
 export const testimonials = [
   {
-    name: 'Amélie Dubois',
-    image: 'assets/femme2.jpg',
-    text: "J'ai trouvé une nounou exceptionnelle grâce à Copodis Personnel. Elle s'occupe merveilleusement bien de mes enfants.",
+    name: 'Furchette bouchon',
+    image: 'assets/furchette_et_bouchon.jpg',
+    text: "« En tant qu'entreprise, nous avons régulièrement recours aux services de Coprodis pour nos besoins en personnel temporaire. Chaque fois, ils nous fournissent des professionnels qualifiés et fiables, ce qui nous permet de maintenir un haut niveau de productivité. Leur réactivité et la qualité de leurs prestations en font un partenaire de confiance pour nous. Nous recommandons vivement leurs services à toute entreprise cherchant un soutien efficace et professionnel.  ",
     rating: 5,
   },
   {
@@ -108,8 +102,8 @@ export const testimonials = [
   },
   {
     name: 'Sophie Leroy',
-    image: 'assets/femme3.jpg',
-    text: "Grâce à Copodis Personnel, j'ai trouvé une femme de ménage fiable et efficace. Ma maison n'a jamais été aussi propre !",
+    image: 'assets/image2.jpg',
+    text: "Rendu à la 4 ème année de collaboration avec Coprodis, j'y ai recruté assistant administratif, staff protocolaire ponctuel évènementiel, chauffeur, techniens de surface et nounou au cameroun. je vous recommande fortement Coprodis.",
     rating: 5,
   },
   {
@@ -120,14 +114,14 @@ export const testimonials = [
   },
   {
     name: 'Marie Petit',
-    image: 'assets/homme1.avif',
-    text: "J'ai trouvé une aide à domicile formidable pour ma mère. Elle est attentionnée et professionnelle.",
+    image: 'assets/image3_congo.jpg',
+    text: "Vivant au Congo, je fais toujours appel aux nounous de Coprodis chaque fois que je viens au Cameroun. Leur service est exceptionnel et m’apporte une grande tranquillité d’esprit pour mes enfants. Les nounous sont professionnelles et attentionnées, ce qui me permet de me concentrer sereinement sur mes activités. Je recommande vivement leurs services.",
     rating: 4,
   },
   {
     name : 'Jeanne NGuefack',
-    image:'assets/femme1.jpg',
-    text:"Nous avions du mal à gérer notre maison et nos enfants malgré plusieurs essais avec différentes ménagères. Avec beaucoup d'espoir, nous avons fait appel à Coprodis. Ils nous ont envoyé une ménagère compétente qui a transformé notre maison et créé un environnement chaleureux pour nos enfants. Grâce à Coprodis, nous avons pu surmonter nos difficultés et profiter d'une maison bien gérée et heureuse.",
+    image:'assets/imagebonapriso.jpg',
+    text:"Je vis à Bonapriso, j'avais besoin d'un chauffeur pour mes enfants. Depuis que nous avons engagé ce service chez coprodis, leur transport est devenu bien plus facile et sécurisé. Mon chauffeur est ponctuel et attentionné, ce qui me permet de me concentrer sur mon travail. Je recommande vivement coprodis à toutes les familles !",
     rating:5
   },
 
